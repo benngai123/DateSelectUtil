@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--用于修改字体颜色的 selector 文件,放在这个文件夹里(res/color),这样代码里和xml都能调用到-->
+<!--eg.-->
+<!--代码设置-->
+<!--ColorStateList textColor = mContext.getResources().getColorStateList(R.color.sel_currency_list);-->
+<!--tvCurrency.setTextColor(textColor);-->
+<!--xml设置-->
+<!--android:textColor="@color/sel_currency_list"-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:color="@color/gray" android:state_enabled="false"/>
+	<item android:color="@color/white" android:state_pressed="true"/>
+	<item android:color="@color/white" android:state_checked="true"/>
+	<item android:color="@color/white" android:state_selected="true"/>
+	<item android:color="@color/clr_exchange_currency_select"/>
+</selector>

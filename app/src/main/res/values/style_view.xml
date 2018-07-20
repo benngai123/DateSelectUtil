@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="v_horizontal_divider_line">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/height1</item>
+		<item name="android:background">@color/clr_divider_line</item>
+	</style>
+
+	<style name="v_horizontal_divider_line1"  parent="v_horizontal_divider_line">
+		<item name="android:layout_marginLeft">@dimen/margin10</item>
+		<item name="android:layout_marginRight">@dimen/margin10</item>
+	</style>
+
+	<!--order detail水平分隔线-->
+	<style name="v_horizontal_divider_line2" parent="v_horizontal_divider_line">
+		<item name="android:layout_margin">@dimen/margin10</item>
+	</style>
+
+	<style name="v_horizontal_divider_line3" parent="v_horizontal_divider_line">
+		<item name="android:layout_marginLeft">@dimen/margin15</item>
+		<item name="android:layout_marginRight">@dimen/margin15</item>
+	</style>
+
+	<style name="v_horizontal_divider_section">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/height10</item>
+		<item name="android:background">@color/clr_primary_separator</item>
+	</style>
+
+	<style name="v_horizontal_divider_section_1">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/height20</item>
+		<item name="android:background">@color/clr_primary_separator</item>
+	</style>
+
+	<style name="v_horizontal_divider_section_2">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/height5</item>
+		<item name="android:background">@color/clr_primary_separator</item>
+	</style>
+
+	<style name="v_horizontal_divider_section_3">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/height10</item>
+		<item name="android:background">@color/clr_primary_separator</item>
+	</style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rl_content"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/bg_exchange_currency">
+
+	<TextView
+		android:id="@+id/tv_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginStart="@dimen/margin5"
+		android:layout_marginEnd="@dimen/margin5"
+		android:maxLines="1"
+		android:textColor="@color/sel_currency_list"
+		android:textSize="@dimen/txtSize16"/>
+
+</RelativeLayout>

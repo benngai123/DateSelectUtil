@@ -1,6 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorPrimary">#3F51B5</color>
-	<color name="colorPrimaryDark">#303F9F</color>
+
+	<color name="colorPrimary">#1a83d4</color>
+	<color name="colorPrimaryDark">#1a83d4</color>
 	<color name="colorAccent">#FF4081</color>
+	<color name="clr_bill_payment_rule">#575757</color>
+
+	<color name="clr_slide_circle_normal">#dfdfdf</color>
+	<color name="clr_slide_circle_selected">#29a3f0</color>
+
+	<color name="clr_tv_version">#99FFFFFF</color>
+	<color name="clr_card_pager">#BBFFFFFF</color>
+	<color name="clr_login_forgot_password">#BBFFFFFF</color>
+	<color name="clr_login_btn_invalid">#d2d3d4</color>
+	<color name="clr_login_btn">#7fa3c8</color>
+	<color name="clr_tv_login">#7fa3c8</color>
+	<color name="clr_tv_login_invalid">#c6c9b8</color>
+	<color name="clr_tab_gb">#f4f3f3</color>
+	<color name="clr_tab_txt">#636363</color>
+	<color name="clr_tab_select_txt">#48aeef</color>
+
+	<color name="clr_bank_view_gb">#ff83c9e5</color>
+	<color name="clr_gesture_gb">#ff303237</color>
+
+	<color name="clr_tv_about">#333333</color>
+	<!--notification-->
+	<color name="clr_notification_title">#7f7f7f</color>
+
+	<!--gesture-->
+	<color name="clr_gesture_bg">#ff303237</color>
+	<color name="clr_view_page">#BBFFFFFF</color>
+	<color name="clr_version">#BBFFFFFF</color>
+
+
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="transparent">#00000000</color>
+	<color name="half_transparent_white">#80FFFFFF</color>
+
+	<color name="clr_about_tv">#333333</color>
+	<color name="clr_about_web">#FF0000FF</color>
+
+
+	<!--应用主色调-->
+	<!--<color name="colorPrimary">#29a3f0</color>-->
+	<!--<color name="colorPrimaryLight">#279af2</color>-->
+	<!--系统字体tv主颜色-->
+
+	<color name="clr_primary_side">#c9c9c9</color><!--一些样式的边线-->
+	<color name="clr_primary_side_select">#2fa9f5</color>
+	<color name="clr_tv_balance">#000000</color><!--balance-->
+	<color name="clr_tv_currency">#000000</color><!--currency-->
+	<color name="clr_tv_time">#636363</color><!--time-->
+	<color name="clr_tv_hint">#ffb0b0b0</color><!--文本没录入状态 textColorHint-->
+	<color name="clr_primary_separator">#efefef</color><!--分离区背景颜色-->
+	<color name="clr_primary_separator_title">#96969c</color><!--分离区标题-->
+	<color name="clr_gesture_error">#eb6856</color>
+	<color name="clr_gesture">#4cb2f2</color>
+	<color name="clr_version_hint">#bbbbbb</color>
+
+	<!--通用展现字体颜色-->
+	<color name="btn_common_color">#1a83d4</color>
+	<color name="gray">#999999</color>
+	<color name="clr_common_title">#000000</color>
+	<color name="clr_common_content">#000000</color>
+	<color name="clr_common_content_1">#ff393939</color>
+	<color name="clr_common_content_invalid">#636363</color>
+	<color name="clr_common_content_hint">#ffb0b0b0</color>
+	<color name="clr_order_title">#ff575757</color>
+	<color name="clr_order_content">#000000</color>
+	<color name="clr_error_red">#df1e1e</color>
+	<color name="clr_amount_red">#f00</color>
+
+	<color name="clr_select_layout">#ffd2d2d2</color>
+	<color name="clr_add_bank_bg">@color/colorPrimary</color>
+	<color name="clr_primary_body_bg">#efefef</color>
+	<color name="clr_select_time_gb">#eeeeee</color><!--展现戳选时间区背景-->
+	<color name="clr_tv_fee_normal">#ffb0b0b0</color>
+	<color name="clr_tv_fee_select">#29a3f0</color>
+	<color name="clr_tv_btn_positive">#fff</color>
+	<color name="clr_tv_fee_negative">#7a8990</color>
+
+	<!--money-->
+	<color name="clr_money_gb">#29a3f0</color>
+	<color name="clr_money_cash">#deb640</color>
+	<color name="clr_money_deposit_cash">#deb640</color>
+	<color name="clr_money_withdraw_cash">#428f56</color>
+
+	<!--Log-->
+	<color name="clr_log_left_line">#d8d8d8</color>
+	<color name="clr_log_left_circle">#5bbbf7</color>
+	<color name="clr_switch_track_off">#dfdfdf</color>
+	<color name="clr_switch_track_no">#2fa9f5</color>
+	<color name="clr_hot_line_phone">#3b78b0</color>
+	<color name="clr_exchange_currency_normal">#f4f4f4</color>
+	<color name="clr_exchange_currency_select">#29a3f0</color>
+	<color name="clr_exchange_amount_slide">#5e5e5e</color>
+	<color name="clr_exchange_amount">#e8e8e8</color>
+	<color name="clr_exchange_rate_title">#29a3f0</color>
+	<!--to member要去掉-->
+	<color name="clr_list_time">#999999</color>
+	<color name="clr_divider_line">#d8d8d8</color>
+	<!--dialog-->
+	<color name="clr_light_gray">#F7F7F7</color>
+	<color name="clr_light_black">#696969</color>
+	<color name="clr_blend_item_theme">#ff005092</color>
+	<color name="clr_blend_item_divider">#ffededed</color>
+	<color name="clr_toolbar_right">#CCCCCC</color>
+	<color name="clr_bottom_menu_bg">#F8F8F8</color>
+	<color name="clr_tab_item_text_selected">@color/colorPrimary</color>
+	<color name="clr_tab_item_text_normal">#777777</color>
+	<color name="clr_price">#68BFFE</color>
+	<color name="clr_keyboard_number_bg">#C9CFD9</color>
+	<color name="clr_psts_background_tab_pressed">#1AFFFFFF</color>
+	<color name="clr_tv_order_detail_left">#353535</color>
+	<color name="clr_tv_payment_code_title">#353535</color>
+	<!-- 不可编辑的区域，如Fee/Commission区域的展现 -->
+	<color name="clr_fee_area_bg">#FAFAFA</color>
+	<color name="clr_ic_delete_can">#7f7f7f</color>
+	<color name="clr_ic_confirm">#999999</color>
+	<color name="clr_ic_fork_black">#999999</color>
+	<color name="clr_ic_image">#999999</color>
+	<color name="clr_pending">#008000</color>
+	<color name="clr_completed">#8ba6d2</color>
+	<color name="clr_canceled">#BBBBBB</color>
+	<color name="clr_ic_delete_image">#FFFFFF</color>
+	<color name="clr_list_item_divider">#e1e1e1</color>
+
+	<!--bank card background-->
+	<color name="clr_bank_add">#dfdfdf</color>
+
+	<color name="clr_bank">#096d94</color>
+	<color name="clr_bank_aba">#096d94</color>
+	<color name="clr_bank_sc">#096d94</color>
+	<color name="clr_bank_wing">#096d94</color>
+	<color name="clr_bank_ftb">#096d94</color>
+	<color name="clr_bank_sp">#096d94</color>
+
+	<color name="clr_bank_ac">#ffcb05</color>
+	<color name="clr_bank_cbp">#ffcb05</color>
+	<color name="clr_bank_may">#ffcb05</color>
+	<color name="clr_bank_cana">#ffcb05</color>
+	<color name="clr_bank_ct">#ffcb05</color>
+
+	<color name="clr_bank_spb">#093f89</color>
+	<color name="clr_bank_acu">#093f89</color>
+
+	<color name="clr_bank_pb">#e0617e</color>
+	<color name="clr_bank_cimb">#e0617e</color>
+	<color name="clr_bank_cp">#e0617e</color>
+
+	<color name="clr_no_data">#888888</color>
+
+	<!--svg-->
+	<color name="clr_ic_receive_yellow">#deb640</color>
+	<color name="clr_ic_deposit_yellow">#deb640</color>
+	<color name="clr_ic_withdraw_yellow">#deb640</color>
+
+	<!--Log-->
+	<color name="clr_date_title">#333333</color>
+	<color name="clr_tv_log_ip">#777777</color>
+	<color name="color_edit_text_cursor">#289AF2</color>
+	<color name="clr_bg_take_picture2">#EDEDED</color>
+	<color name="clr_app_bg">#efefef</color>
+
+	<!--sub account-->
+	<color name="clr_add_business">#78D22E</color>
+	<color name="clr_delete_business">#F66E6D</color>
+	<color name="clr_not_select">#999999</color>
+	<color name="clr_business_type">#5f7b8b</color>
+	<color name="clr_chat_tv_title">#333333</color>
+	<color name="clr_bg_search_gray">#eeeeee</color>
+	<color name="clr_window_bg">#EEE</color>
+	<color name="clr_search_gray_bg">#eeeeee</color>
+	<color name="clr_chat_tv_hint">#999999</color>
 </resources>

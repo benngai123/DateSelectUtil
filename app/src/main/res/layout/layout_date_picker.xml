@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@null">
+
+	<LinearLayout
+		android:id="@+id/container_picker"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentStart="true"
+		android:background="#fff"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:id="@+id/rl_title"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height45"
+			android:layout_marginEnd="@dimen/margin5"
+			android:layout_marginStart="@dimen/margin5">
+
+			<FrameLayout
+				android:id="@+id/fl_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_centerVertical="true"
+				android:paddingEnd="@dimen/padding16"
+				android:paddingStart="@dimen/padding10">
+
+				<android.support.v7.widget.AppCompatImageView
+					android:layout_width="@dimen/width15"
+					android:layout_height="@dimen/height15"
+					android:layout_gravity="center"
+					app:srcCompat="@drawable/ic_fork_black"/>
+			</FrameLayout>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="@string/filter"
+				android:textColor="@color/clr_common_title"
+				android:textSize="@dimen/txtSize20"/>
+
+			<FrameLayout
+				android:id="@+id/fl_confirm"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentEnd="true"
+				android:layout_centerVertical="true"
+				android:paddingEnd="@dimen/padding10"
+				android:paddingStart="@dimen/padding10">
+
+				<android.support.v7.widget.AppCompatImageView
+					android:layout_width="@dimen/width18"
+					android:layout_height="@dimen/height18"
+					android:layout_gravity="center"
+					app:srcCompat="@drawable/ic_confirm"/>
+			</FrameLayout>
+		</RelativeLayout>
+
+		<View style="@style/v_horizontal_divider_line"/>
+
+		<TextView
+			android:id="@+id/tv_switch"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin20"
+			android:layout_marginStart="@dimen/margin15"
+			android:layout_marginTop="@dimen/margin20"
+			android:background="@drawable/bg_btn_switch"
+			android:drawableEnd="@drawable/sel_switch"
+			android:drawablePadding="@dimen/padding5"
+			android:gravity="center"
+			android:text="@string/by_month"
+			android:textColor="@color/black"
+			android:textSize="@dimen/txtSize12"
+			app:srcCompat="@drawable/ic_delete_can"/>
+
+		<include
+			layout="@layout/view_date_picker_by_day"
+			android:visibility="gone"/>
+
+		<include
+			layout="@layout/view_date_picker_by_month"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+</RelativeLayout>

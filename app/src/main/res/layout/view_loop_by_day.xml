@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/ll_date"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/height150"
+	android:background="#fff"
+	android:orientation="horizontal">
+
+	<ben.dateselect.LoopView
+		android:id="@+id/picker_year"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_marginEnd="@dimen/margin20"
+		android:layout_marginStart="@dimen/margin60"
+		android:layout_weight="1"
+		app:canLoop="false"
+		app:lineColor="#DEDEDE"
+		app:textSize="@dimen/txtSize20"/>
+
+	<ben.dateselect.LoopView
+		android:id="@+id/picker_month"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_marginEnd="@dimen/margin20"
+		android:layout_weight="1"
+		app:canLoop="true"
+		app:lineColor="#DEDEDE"
+		app:textSize="@dimen/txtSize20"/>
+
+	<ben.dateselect.LoopView
+		android:id="@+id/picker_day"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_marginEnd="@dimen/margin60"
+		android:layout_weight="1"
+		app:canLoop="true"
+		app:lineColor="#DEDEDE"
+		app:textSize="@dimen/txtSize20"/>
+
+</LinearLayout>
